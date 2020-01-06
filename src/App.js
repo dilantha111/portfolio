@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AvatarSection from './components/AvatarSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1> My Portfolio </h1>
-      </header>
+    <div className="main-wrapper">
+      <AvatarSection />
+      <div>
+        <h1 style={{textAlign: 'center', margin: '50px'}}> Yet to come !!!</h1>
+      </div>
     </div>
   );
 }
