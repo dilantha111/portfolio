@@ -1,0 +1,20 @@
+.wrapper-experience-section {
+    background: #262626;
+    color: white;
+    font-family: cursive;
+    font-size: small;
+}
+
+.wrapper-experience-section h1 {
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.left-panel {
+    text-align: right;
+}
+
+.right-panel {
+    text-align: left;
+}

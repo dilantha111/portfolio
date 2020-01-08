@@ -1,11 +1,11 @@
 .main-wrapper {
-    
 }
 
 .wrapper-avatar-section {
     padding-top: 50px;
     padding-bottom: 50px;
     background: #e8dede;
+    font-family: monospace
 }
 
 .description-panel h1, .description-panel h2, .description-panel h3 {
