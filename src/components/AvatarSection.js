@@ -30,8 +30,7 @@ function AvatarSection() {
                             I am passionated in cloud computing and front end development.
                         </p>
 
-                        <Button className="contact-btn" variant="outline-dark"> Contact Dilantha </Button>
-
+                        <Button href="mailto:dilantha.prasanjith111@gmail.com" className="contact-btn" variant="outline-dark"> Contact Dilantha </Button>
                     </Col>
                 </Row>
             </Container>
