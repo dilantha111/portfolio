@@ -1,0 +1,14 @@
+.findme-icon-container {
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.findme-icon-container > div {
+  display: flex;
+  justify-content: center;
+}
+
+.findme-icon-container > div > a {
+  font-size: 4rem;
+  color: #657786;
+}

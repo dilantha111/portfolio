@@ -4,8 +4,13 @@
 .wrapper-avatar-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: #e8dede;
-    font-family: monospace
+    background: #FFFFFF;
+    font-family: 'Helvetica'
+}
+
+.avatar-image {
+    border-radius: 100%;
+    max-width: 100%;
 }
 
 .description-panel h1, .description-panel h2, .description-panel h3 {
