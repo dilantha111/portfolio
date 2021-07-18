@@ -10,7 +10,37 @@ function ExperienceSection() {
                 <Row>
                     <Col md={5} className="left-panel">
                         <h3> Senior Software Engineer </h3>
-                        <h4> 2019 - present </h4>
+                        <h4> 2020 - present </h4>
+                    </Col>
+                    <Col md={7} className="right-panel">
+                        <h3> SkoolBag </h3>
+                        <p>
+                            Currently I work as a team lead at SkoolBag. SkoolBag provides a
+                            communication platform for schools in Australia. This platform includes three
+                            components. Admin dashboard, a react native mobile app and a web portal.
+                            Technology Stack: React Native, Angular, AWS, Serverless, NodeJS
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={5} className="left-panel">
+                        <h3> Senior Software Engineer </h3>
+                        <h4> 2020 </h4>
+                    </Col>
+                    <Col md={7} className="right-panel">
+                        <h3> Different </h3>
+                        <p>
+                            Different provides a solution for managing properties and leases
+                            in Australia. It connects property providers, tenants and service provider
+                            together to make everyone's lives better
+                            Technology Stack: ReactJS, AWS, Serverless, NodeJS
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={5} className="left-panel">
+                        <h3> Senior Software Engineer </h3>
+                        <h4> 2019 - 2020 </h4>
                     </Col>
                     <Col md={7} className="right-panel">
                         <h3> iTelasoft (Pvt) Ltd </h3>
