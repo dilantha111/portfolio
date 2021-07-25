@@ -18,8 +18,22 @@ function ExperienceSection() {
                             Currently I work as a team lead at SkoolBag. SkoolBag provides a
                             communication platform for schools in Australia. This platform includes three
                             components. Admin dashboard, a react native mobile app and a web portal.
-                            Technology Stack: React Native, Angular, AWS, Serverless, NodeJS
                         </p>
+                        <div className='tech-stack-container'>
+                            Technology Stack: <span className='tech-stack'>
+                                <span className='tech-slot'> React Native </span>,
+                                <span className='tech-slot'> Angular </span>,
+                                <span className='tech-slot'> AWS </span>,
+                                <span className='tech-slot'> Serverless </span>,
+                            </span>
+                        </div>
+
+                        <div className='tech-stack-container'>
+                            <span className='tech-stack'>
+                                <span className='tech-slot'> NodeJS </span>
+                            </span>
+                        </div>
+
                     </Col>
                 </Row>
                 <Row>
@@ -33,8 +47,15 @@ function ExperienceSection() {
                             Different provides a solution for managing properties and leases
                             in Australia. It connects property providers, tenants and service provider
                             together to make everyone's lives better
-                            Technology Stack: ReactJS, AWS, Serverless, NodeJS
                         </p>
+                        <div className='tech-stack-container'>
+                            Technology Stack: <span className='tech-stack'>
+                                <span className='tech-slot'> ReactJS </span>,
+                                <span className='tech-slot'> AWS </span>,
+                                <span className='tech-slot'> Serverless </span>,
+                                <span className='tech-slot'> NodeJS </span>
+                            </span>
+                        </div>
                     </Col>
                 </Row>
                 <Row>
@@ -47,8 +68,15 @@ function ExperienceSection() {
                         <p>
                             Currently I work in product team, where several produts are
                             being developed and maintained for financial domains.
-                            Technology Stack: NuxtJS, VueJS, ReactJS, AWS, .net core
                         </p>
+                        <div className='tech-stack-container'>
+                            Technology Stack: <span className='tech-stack'>
+                                <span className='tech-slot'> NuxtJS </span>,
+                                <span className='tech-slot'> VueJS </span>,
+                                <span className='tech-slot'> ReactJS </span>,
+                                <span className='tech-slot'> AWS </span>
+                            </span>
+                        </div>
                     </Col>
                 </Row>
 
@@ -62,8 +90,15 @@ function ExperienceSection() {
                         <p>
                             At 99X Technology I worked in UpNorway team. UpNorway is a
                             travel agency based in Oslo Norway.
-                            Technology stack: NodeJs, Angular, ReactJS, AWS
                         </p>
+                        <div className='tech-stack-container'>
+                            Technology Stack: <span className='tech-stack'>
+                                <span className='tech-slot'> NodeJs </span>,
+                                <span className='tech-slot'> Angular </span>,
+                                <span className='tech-slot'> ReactJS </span>,
+                                <span className='tech-slot'> AWS </span>
+                            </span>
+                        </div>
                     </Col>
                 </Row>
 
@@ -76,8 +111,13 @@ function ExperienceSection() {
                         <h3> Auxenta Inc </h3>
                         <p>
                             I got the chance to work with Dialog Axiata internal teams.
-                            Technology stack : Java Spring boot, Angular
                         </p>
+                        <div className='tech-stack-container'>
+                            Technology Stack: <span className='tech-stack'>
+                                <span className='tech-slot'> Angular </span>,
+                                <span className='tech-slot'> Java Spring boot </span>
+                            </span>
+                        </div>
                     </Col>
                 </Row>
 
@@ -91,8 +131,14 @@ function ExperienceSection() {
                         <p>
                             I've been working as a  freelance full stack developer from 2014.
                             I got the chance to work with clients from Fiverr and through people who contacted me directly.
-                            Technology Stack : ReactJS, NodeJS, Angular
                         </p>
+                        <div className='tech-stack-container'>
+                            Technology Stack: <span className='tech-stack'>
+                                <span className='tech-slot'> ReactJS </span>,
+                                <span className='tech-slot'> NodeJS </span>,
+                                <span className='tech-slot'> Angular </span>
+                            </span>
+                        </div>
                     </Col>
                 </Row>
             </Container>

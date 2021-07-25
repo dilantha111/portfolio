@@ -16,3 +16,27 @@
 .right-panel {
     text-align: left;
 }
+
+.right-panel p {
+    margin-bottom: 0.3rem;
+}
+
+.tech-stack-container {
+    margin-bottom: 0.5rem;
+}
+
+.tech-stack {
+    font-weight: 500;
+    color: #ccd6f6;
+}
+
+.tech-slot {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+.tech-slot::before {
+    content: '#';
+}
