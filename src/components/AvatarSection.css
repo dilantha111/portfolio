@@ -3,12 +3,102 @@
   margin-top: 4rem;
 }
 
-.findme-icon-container > div {
+.findme-icon-container>div {
   display: flex;
   justify-content: center;
 }
 
-.findme-icon-container > div > a {
+.findme-icon-container>div>a {
   font-size: 4rem;
   color: #657786;
+}
+
+.email-container-parent {
+  display: flex;
+}
+
+.email-container-child {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copy-icon-container {
+  border: 1px solid #00000030;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.copy-icon-container:hover {
+  background: #00000012;
+}
+
+.tooltipi {
+  position: relative;
+}
+
+.tooltipi:before {
+  content: attr(data-text);
+  /* here's the magic */
+  position: absolute;
+
+  /* vertically center */
+  top: 50%;
+  transform: translateY(-50%);
+
+  /* move to right */
+  left: 100%;
+  margin-left: 15px;
+  /* and add a small left margin */
+
+  /* basic styles */
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+
+  display: block;
+  opacity: 0;
+  /* transition: 1s ease-in-out; */
+}
+
+.tooltipi::after {
+  content: '';
+  position: absolute;
+  left: 42%;
+  bottom: 50%;
+  border: 13px solid #000;
+  border-color: #000 transparent transparent;
+  display: block;
+  opacity: 0;
+  /* transition: 1s ease-in-out; */
+}
+
+.tooltipi.show:after {
+  opacity: 1;
+}
+
+.tooltipi.left:before {
+  /* reset defaults */
+  left: initial;
+  margin: initial;
+
+  /* set new values */
+  right: 100%;
+  margin-right: 15px;
+}
+
+.tooltipi.top:before {
+  top: initial;
+  margin: initial;
+  bottom: 50%;
+  left: 10%;
+}
+
+.tooltipi.show:before {
+  opacity: 1;
 }
